@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "348683858456",
+    "project_id": "quiz-game-17dff",
+    "storage_bucket": "quiz-game-17dff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348683858456:android:b7dbcf6e7e64a6af7c096d",
+        "android_client_info": {
+          "package_name": "com.lopita.quizgame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCoa51C0ZCHuuDcMFCj-sIt5t1sTlygSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

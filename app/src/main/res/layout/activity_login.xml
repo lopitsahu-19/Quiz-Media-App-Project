@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".loginActivity">
+
+    <ImageView
+        android:id="@+id/quizIcon"
+        android:layout_width="262dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="80dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_2" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="166dp"
+        app:cardCornerRadius="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:text="Login Now"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText1"
+            android:layout_alignEnd="@+id/editText1"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="37dp"
+            android:text="Login to continue Using app"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/login_email"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="27dp"
+            android:alpha="8"
+            android:drawableEnd="@drawable/baseline_email_24"
+            android:hint="user_email"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textColorHint="#969494"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="27dp"
+            android:alpha="8"
+            android:hint="user_password"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="#969494"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginLeft="123dp"
+            android:layout_marginTop="230dp"
+            android:layout_marginEnd="62dp"
+            android:backgroundTint="#11225E"
+            android:text="Login"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/signupRedirectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="29dp"
+            android:text="Don't have an account?Sign up"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

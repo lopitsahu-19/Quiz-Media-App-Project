@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".signup">
+
+
+    <ImageView
+        android:id="@+id/quizIcon"
+        android:layout_width="262dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_2" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="166dp"
+        app:cardCornerRadius="30dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="10dp"
+            android:text="Sign Up"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/signup_email"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="27dp"
+            android:alpha="10"
+            android:hint="Enter_email"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="#969494"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="265dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="27dp"
+            android:alpha="10"
+            android:hint="Enter_password"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="#969494"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="183dp"
+            android:layout_height="54dp"
+            android:layout_alignStart="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_marginStart="47dp"
+            android:layout_marginLeft="123dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="-7dp"
+            android:backgroundTint="#11225E"
+            android:text="Signup"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/loginRedirectText"
+            android:layout_width="282dp"
+            android:layout_height="43dp"
+            android:layout_alignStart="@+id/editText2"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginRight="45dp"
+            android:text="Don't have an account?Login"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
